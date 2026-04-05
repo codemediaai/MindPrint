@@ -1,0 +1,24 @@
+{
+  "name": "mindprint",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Daily Life Almanac Generator by the Mindroot Foundation",
+  "author": "Mindroot Foundation",
+  "license": "UNLICENSED",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && firebase deploy --only hosting"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.0"
+  }
+}

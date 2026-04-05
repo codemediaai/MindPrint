@@ -1,0 +1,12 @@
+{
+  "name": "mindprint-functions",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "MindPrint Cloud Functions — daily PDF generation and email delivery",
+  "main": "generateDaily.js",
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.0",
+    "@supabase/supabase-js": "^2.45.0",
+    "puppeteer": "^23.0.0"
+  }
+}
